@@ -169,7 +169,7 @@ img{
     max-width: 50%;
     margin:0 auto;
     border-radius: 20px;
-    color: white;
+    color: rgba(72, 136, 255, 0.66);
     margin-bottom: 2%;
   }
 header:hover{
