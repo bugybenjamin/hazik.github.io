@@ -4,8 +4,7 @@
     padding:0;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url('hatter1.png');
+    background-image: url("hatter1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -58,7 +57,7 @@ body {
   }
   
   .flip-card-front {
-    background-color: rgba(55, 123, 249, 0.486);
+    background-color: rgba(3, 41, 254, 0.486);
     color: black;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
@@ -117,7 +116,7 @@ img{
   .kep {
     position: relative;
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
  
   }
   .centered {
@@ -131,14 +130,14 @@ img{
   
   a{
     text-decoration: none;
-    color:black;
+    color:rgb(53, 205, 216);
     text-shadow: 1px 1px 10px black;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   a:hover{
     text-decoration: none;
     color:green;
-    text-shadow: 1px 1px 20px black;
+    text-shadow: 1px 1px 20px rgb(246, 241, 241);
   }
 
   .szoveg h3{
@@ -202,5 +201,6 @@ header:hover{
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 70, 200, 0.363);
 }
+
 
 
