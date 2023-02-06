@@ -1,13 +1,14 @@
 *{
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+  font-family:Arial, Helvetica, sans-serif;
 }
 body {
-    background-image: url("hatter1.png");
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/971/890/349/liquid-art-liquid-blue-yellow-wallpaper-preview.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin:0;
+    padding:0;
 
   }
   .tartalom{
@@ -15,6 +16,11 @@ body {
     align-items: center;
     text-align: center;
     padding-top: 10%;
+    background-color:rgb(255, 255, 255);
+    padding: 5%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
+    margin: 3%;
+    border-radius: 20px;
   }
   
   .flip-card {
@@ -36,9 +42,12 @@ body {
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(48, 18, 182, 0.2);
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
-  }
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
   
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
@@ -53,23 +62,23 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
+    border: 5px solid rgba(228, 228, 228, 0.438);
   }
   
   .flip-card-front {
     background-color: rgba(3, 41, 254, 0.486);
-    color: black;
+    color: rgb(255, 253, 253);
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
+
     
   }
   
   .flip-card-back {
     background-color: #ffffff;
-    color: rgba(255, 255, 255, 0);
+    color: rgba(230, 25, 25, 0);
     transform: rotateY(180deg);
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
+    box-shadow: 0 0 20px rgba(185, 26, 26, 0.408);
   }
 
 
@@ -91,14 +100,15 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
+    border: 5px solid rgba(228, 228, 228, 0.438);
+  
   }
   
   .flip-card-front1 {
     background-color: rgba(249, 55, 71, 0.486);
     color: black;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
+
   }
   
   .flip-card-front1 h1{
@@ -125,6 +135,7 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: larger;
+
   }
 
   
@@ -163,24 +174,26 @@ img{
     text-shadow: 0 0 20px black;
   }
   header{
-    background-color: rgba(55, 123, 249, 0.19);
+    background-color: rgb(183, 183, 183);
     padding: 10px;
-    max-width: 50%;
+    max-width: 90%;
     margin:0 auto;
     border-radius: 20px;
-    color: rgba(72, 136, 255, 0.66);
+    color: rgb(255, 255, 255);
     margin-bottom: 2%;
+    border: 5px solid rgba(228, 228, 228, 0.438);
   }
 header:hover{
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.408);
 }
-.tartalom{
-  background-color:rgba(0, 0, 0, 0.395);
-  padding: 5% 10% 5% 10%;
-  border: 5px solid rgba(56, 126, 255, 0.222);
-  margin: 4% 6% 4% 6%;
-  border-radius: 20px;
 
+@media only screen and (max-width: 800px) {
+  .tartalom{
+    background-color:rgb(255, 255, 255);
+    padding: 0 auto;
+    margin: 0px;
+    border-radius: 20px;
+}
 }
 /* width */
 ::-webkit-scrollbar {
